@@ -1,0 +1,45 @@
+=============== 
+Unity generated
+===============
+LightTrails/Temp/
+LightTrails/Library/
+LightTrails/Bin/
+LightTrails/Scene_Data/
+LightTrails/LightTrails.exe
+LightTrails/LightTrails_Data
+LightTrails/EffectsRecorder_Data/
+PublicSite/bin/
+LightTrails/UWP/
+Deployment/PublicSite/wwwroot/software/
+
+=============== 
+Deployment
+===============
+Deployment/Data/
+
+=====================================
+Visual Studio / MonoDevelop generated
+=====================================
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+/*.msi
+
+============
+OS generated
+============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
