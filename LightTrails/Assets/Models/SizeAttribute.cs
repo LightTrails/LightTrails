@@ -1,5 +1,4 @@
-﻿using Assets.Projects.Scripts;
-using System;
+﻿using System;
 using UnityEngine;
 
 namespace Assets.Models

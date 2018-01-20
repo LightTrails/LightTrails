@@ -1,5 +1,4 @@
 ﻿using Assets.Models;
-using Assets.Projects.Scripts;
 using System;
 using System.Collections.Generic;
 #if UNITY_STANDALONE_WIN

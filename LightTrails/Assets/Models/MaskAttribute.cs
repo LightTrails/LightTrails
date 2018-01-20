@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using Assets.Projects.Scripts;
 
 namespace Assets.Models
 {

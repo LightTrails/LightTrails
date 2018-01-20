@@ -1,5 +1,4 @@
-﻿using Assets.Projects.Scripts;
-using System;
+﻿using System;
 
 namespace Assets.Models
 {

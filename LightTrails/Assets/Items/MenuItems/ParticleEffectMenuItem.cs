@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
-using Assets.Projects.Scripts;
 using Assets.Models;
 using System.Collections.Generic;
 

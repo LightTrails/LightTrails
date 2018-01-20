@@ -1,5 +1,4 @@
-﻿using Assets.Projects.Scripts;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public static class MaskImages

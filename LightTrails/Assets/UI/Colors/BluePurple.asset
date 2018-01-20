@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e9a7a11c97a1a4c8c493e14d8b20b9, type: 3}
+  m_Name: BluePurple
+  m_EditorClassIdentifier: 
+  PrimaryColor: {r: 0.121568635, g: 0.14509805, b: 0.5019608, a: 1}
+  PrimaryColorDark: {r: 0.011764707, g: 0.003921569, b: 0.32156864, a: 1}
+  PrimaryColorLight: {r: 0.32941177, g: 0.29803923, b: 0.69411767, a: 1}
+  SecondaryColor: {r: 0.3803922, g: 0.043137256, b: 0.9333334, a: 1}
+  SecondaryColorDark: {r: 0.09019608, g: 0.027450982, b: 0.7254902, a: 1}
+  SecondaryColorLight: {r: 0.6039216, g: 0.28235295, b: 1, a: 1}
+  Disabled: {r: 0.7352941, g: 0.7352941, b: 0.7352941, a: 0.522}

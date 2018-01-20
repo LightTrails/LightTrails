@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -266,10 +268,10 @@
       <HintPath>Assets/Plugins/Windows10Port.dll</HintPath>
     </Reference>
     <Reference Include="Ookii.Dialogs">
-      <HintPath>Assets/UI/Extensions/Ookii.Dialogs.dll</HintPath>
+      <HintPath>Assets/UI2/Extensions/Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Forms">
-      <HintPath>Assets/UI/Extensions/System.Windows.Forms.dll</HintPath>
+      <HintPath>Assets/UI2/Extensions/System.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/Rasmus Færing Larsen/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -296,6 +298,7 @@
   <ItemGroup>
     <Compile Include="Assets\EffectOptions.cs" />
     <Compile Include="Assets\Events\Events.cs" />
+    <Compile Include="Assets\Helper.cs" />
     <Compile Include="Assets\Items\ItemsMenu.cs" />
     <Compile Include="Assets\Items\MenuItems\AddEffectMenuItem.cs" />
     <Compile Include="Assets\Items\MenuItems\EffectMenuItem.cs" />
@@ -341,22 +344,21 @@
     <Compile Include="Assets\ParticleSystems\Manipulations\SizeManipulation.cs" />
     <Compile Include="Assets\ParticleSystems\Manipulations\SpawnManipulation.cs" />
     <Compile Include="Assets\ParticleSystems\Manipulations\SystemManipulation.cs" />
-    <Compile Include="Assets\Projects\Scripts\AttributesValues.cs" />
-    <Compile Include="Assets\Projects\Scripts\CanvasExtensions.cs" />
-    <Compile Include="Assets\Projects\Scripts\ClickHandlerCatcher.cs" />
-    <Compile Include="Assets\Projects\Scripts\CreateProjectButton.cs" />
-    <Compile Include="Assets\Projects\Scripts\DeleteModeToggleButton.cs" />
-    <Compile Include="Assets\Projects\Scripts\NewProjectDialog.cs" />
+    <Compile Include="Assets\Projects\Scripts\Actions\CreateProjectDialogButton.cs" />
+    <Compile Include="Assets\Projects\Scripts\Actions\DeleteModeToggleButton.cs" />
+    <Compile Include="Assets\Projects\Scripts\Helper\ClickHandlerCatcher.cs" />
     <Compile Include="Assets\Projects\Scripts\NewProjectImagePicker.cs" />
-    <Compile Include="Assets\Projects\Scripts\NewProjectNameInput.cs" />
-    <Compile Include="Assets\Projects\Scripts\OpenNewProjectDialogButton.cs" />
-    <Compile Include="Assets\Projects\Scripts\PersistenceConsts.cs" />
-    <Compile Include="Assets\Projects\Scripts\Project.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectBackgroundImage.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectGarbageIcon.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectList.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectListItem.cs" />
-    <Compile Include="Assets\Projects\Scripts\StoredItems.cs" />
+    <Compile Include="Assets\Projects\Scripts\ProjectElements\CanvasExtensions.cs" />
+    <Compile Include="Assets\Projects\Scripts\ProjectElements\CreateProjectDialog.cs" />
+    <Compile Include="Assets\Projects\Scripts\ProjectElements\NewProjectNameInput.cs" />
+    <Compile Include="Assets\Projects\Scripts\ProjectElements\ProjectBackgroundImage.cs" />
+    <Compile Include="Assets\Projects\Scripts\ProjectElements\ProjectGarbageIcon.cs" />
+    <Compile Include="Assets\Projects\Scripts\ProjectElements\ProjectList.cs" />
+    <Compile Include="Assets\Projects\Scripts\ProjectElements\ProjectOptionItem.cs" />
+    <Compile Include="Assets\Projects\Scripts\Storage\AttributesValues.cs" />
+    <Compile Include="Assets\Projects\Scripts\Storage\PersistenceConsts.cs" />
+    <Compile Include="Assets\Projects\Scripts\Storage\Project.cs" />
+    <Compile Include="Assets\Projects\Scripts\Storage\StoredItems.cs" />
     <Compile Include="Assets\Recording\Record.cs" />
     <Compile Include="Assets\Recording\RecorderAreaPicker.cs" />
     <Compile Include="Assets\Recording\Utils.cs" />
@@ -376,64 +378,86 @@
     <Compile Include="Assets\Shaders\Mask\MaskPanel.cs" />
     <Compile Include="Assets\Shaders\Misc\PaintScript.cs" />
     <Compile Include="Assets\Shaders\Misc\ShaderEffect.cs" />
-    <Compile Include="Assets\UI\Attribute\AttributesMenu.cs" />
-    <Compile Include="Assets\UI\Attribute\DraggableParticleSystem.cs" />
-    <Compile Include="Assets\UI\Attribute\General\ShrinkButton.cs" />
-    <Compile Include="Assets\UI\Attribute\General\SizeExpandOnClick.cs" />
-    <Compile Include="Assets\UI\Attribute\General\Tab.cs" />
-    <Compile Include="Assets\UI\Attribute\ImageProperties.cs" />
-    <Compile Include="Assets\UI\Attribute\MenuItems\ActionMenuItem.cs" />
-    <Compile Include="Assets\UI\Attribute\MenuItems\AttributeMenuItem.cs" />
-    <Compile Include="Assets\UI\Attribute\MenuItems\MaskMenuItem.cs" />
-    <Compile Include="Assets\UI\Attribute\MenuItems\OptionsMenuItem.cs" />
-    <Compile Include="Assets\UI\Attribute\MenuItems\SizeMenuItem.cs" />
-    <Compile Include="Assets\UI\Attribute\MenuItems\SliderMenuItem.cs" />
-    <Compile Include="Assets\UI\Attribute\MenuItems\ToggleMenuItem.cs" />
-    <Compile Include="Assets\UI\Effects\EffectContentContainer.cs" />
-    <Compile Include="Assets\UI\Effects\EffectOption.cs" />
-    <Compile Include="Assets\UI\Effects\EffectOptionImageLoader.cs" />
-    <Compile Include="Assets\UI\Effects\EffectOptionsOverlay.cs" />
-    <Compile Include="Assets\UI\Effects\LoopIcon.cs" />
-    <Compile Include="Assets\UI\FileBrowser\IStandaloneFileBrowser.cs" />
-    <Compile Include="Assets\UI\FileBrowser\StandaloneFileBrowser.cs" />
-    <Compile Include="Assets\UI\FileBrowser\StandaloneFileBrowserMetro.cs" />
-    <Compile Include="Assets\UI\FileBrowser\StandaloneFileBrowserWindows.cs" />
-    <Compile Include="Assets\UI\General\ActiveParticleList.cs" />
-    <Compile Include="Assets\UI\General\AddImageButton.cs" />
-    <Compile Include="Assets\UI\General\CameraScaling.cs" />
-    <Compile Include="Assets\UI\General\CloseButton.cs" />
-    <Compile Include="Assets\UI\General\DebugInput.cs" />
-    <Compile Include="Assets\UI\General\DraggableFrame\FlexableFrame.cs" />
-    <Compile Include="Assets\UI\General\DraggableFrame\FlexibleDraggableObject.cs" />
-    <Compile Include="Assets\UI\General\DraggableFrame\FlexibleExtensions.cs" />
-    <Compile Include="Assets\UI\General\DraggableFrame\FlexibleResizeHandler.cs" />
-    <Compile Include="Assets\UI\General\Effect.cs" />
-    <Compile Include="Assets\UI\General\ImageList.cs" />
-    <Compile Include="Assets\UI\General\ImageTranslation.cs" />
-    <Compile Include="Assets\UI\General\LightPlane.cs" />
-    <Compile Include="Assets\UI\General\MainCanvas.cs" />
-    <Compile Include="Assets\UI\General\ParticleEffect.cs" />
-    <Compile Include="Assets\UI\General\ParticleList.cs" />
-    <Compile Include="Assets\UI\General\RemoveEffectButton.cs" />
-    <Compile Include="Assets\UI\General\ReordeableList\ReorderableList.cs" />
-    <Compile Include="Assets\UI\General\ReordeableList\ReorderableListContent.cs" />
-    <Compile Include="Assets\UI\General\ReordeableList\ReorderableListElement.cs" />
-    <Compile Include="Assets\UI\General\SaveProject.cs" />
-    <Compile Include="Assets\UI\General\ScreenShot.cs" />
-    <Compile Include="Assets\UI\General\UnityMainThreadDispatcher.cs" />
-    <Compile Include="Assets\UI\General\Zoom.cs" />
-    <Compile Include="Assets\UI\Masks\ImportMask.cs" />
-    <Compile Include="Assets\UI\Notifications\Notifications.cs" />
-    <Compile Include="Assets\UI\RecorderPanel\RecordButton.cs" />
-    <Compile Include="Assets\UI\RecorderPanel\RecorderProgressBar.cs" />
-    <Compile Include="Assets\UI\RecorderPanel\SetRecorderTimer.cs" />
-    <Compile Include="Assets\UI\RecorderPanel\StartButton.cs" />
-    <Compile Include="Assets\UI\Video\CloseVideoGrid.cs" />
-    <Compile Include="Assets\UI\Video\OpenVideoDirectoryButton.cs" />
-    <Compile Include="Assets\UI\Video\VideoContainer.cs" />
-    <Compile Include="Assets\UI\Video\VideoFileInfo.cs" />
-    <Compile Include="Assets\UI\Video\VideoGrid.cs" />
-    <Compile Include="Assets\UI\Video\VideoItem.cs" />
+    <Compile Include="Assets\UI\Colors\ColorSchema.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\AnimatedImageTransparency.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\AnimatedMovement.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\AnimatedObject.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\AnimatedSize.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\AnimatedTextTransparency.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\Animation.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\Ease.cs" />
+    <Compile Include="Assets\UI\Scripts\Demo\DemoSelectorDropDown.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\AttributesMenu.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\DraggableParticleSystem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\General\ShrinkButton.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\General\SizeExpandOnClick.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\General\Tab.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\ImageProperties.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\ActionMenuItem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\AttributeMenuItem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\MaskMenuItem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\OptionsMenuItem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\SizeMenuItem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\SliderMenuItem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\ToggleMenuItem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Dialogs\Dialog.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Dialogs\Overlay.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Dialogs\SaveDialog.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Input\Label.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Input\TextInput.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Notifications\Notifications.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Options\OptionGroup.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Options\OptionItem.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Options\OptionItemContentResizer.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Options\OptionItemOverlay.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Options\ShaderEffectOption.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Options\ShaderPreview.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Selectors\Selector.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Selectors\SelectorItem.cs" />
+    <Compile Include="Assets\UI2\Effects\EffectContentContainer.cs" />
+    <Compile Include="Assets\UI2\Effects\EffectOption.cs" />
+    <Compile Include="Assets\UI2\Effects\EffectOptionImageLoader.cs" />
+    <Compile Include="Assets\UI2\Effects\EffectOptionsOverlay.cs" />
+    <Compile Include="Assets\UI2\Effects\LoopIcon.cs" />
+    <Compile Include="Assets\UI2\FileBrowser\IStandaloneFileBrowser.cs" />
+    <Compile Include="Assets\UI2\FileBrowser\StandaloneFileBrowser.cs" />
+    <Compile Include="Assets\UI2\FileBrowser\StandaloneFileBrowserMetro.cs" />
+    <Compile Include="Assets\UI2\FileBrowser\StandaloneFileBrowserWindows.cs" />
+    <Compile Include="Assets\UI2\General\ActiveParticleList.cs" />
+    <Compile Include="Assets\UI2\General\AddImageButton.cs" />
+    <Compile Include="Assets\UI2\General\CameraScaling.cs" />
+    <Compile Include="Assets\UI2\General\CloseButton.cs" />
+    <Compile Include="Assets\UI2\General\DebugInput.cs" />
+    <Compile Include="Assets\UI2\General\DraggableFrame\FlexableFrame.cs" />
+    <Compile Include="Assets\UI2\General\DraggableFrame\FlexibleDraggableObject.cs" />
+    <Compile Include="Assets\UI2\General\DraggableFrame\FlexibleExtensions.cs" />
+    <Compile Include="Assets\UI2\General\DraggableFrame\FlexibleResizeHandler.cs" />
+    <Compile Include="Assets\UI2\General\Effect.cs" />
+    <Compile Include="Assets\UI2\General\ImageList.cs" />
+    <Compile Include="Assets\UI2\General\ImageTranslation.cs" />
+    <Compile Include="Assets\UI2\General\LightPlane.cs" />
+    <Compile Include="Assets\UI2\General\MainCanvas.cs" />
+    <Compile Include="Assets\UI2\General\ParticleEffect.cs" />
+    <Compile Include="Assets\UI2\General\ParticleList.cs" />
+    <Compile Include="Assets\UI2\General\RemoveEffectButton.cs" />
+    <Compile Include="Assets\UI2\General\ReordeableList\ReorderableList.cs" />
+    <Compile Include="Assets\UI2\General\ReordeableList\ReorderableListContent.cs" />
+    <Compile Include="Assets\UI2\General\ReordeableList\ReorderableListElement.cs" />
+    <Compile Include="Assets\UI2\General\SaveProject.cs" />
+    <Compile Include="Assets\UI2\General\ScreenShot.cs" />
+    <Compile Include="Assets\UI2\General\UnityMainThreadDispatcher.cs" />
+    <Compile Include="Assets\UI2\General\Zoom.cs" />
+    <Compile Include="Assets\UI2\Masks\ImportMask.cs" />
+    <Compile Include="Assets\UI2\RecorderPanel\RecordButton.cs" />
+    <Compile Include="Assets\UI2\RecorderPanel\RecorderProgressBar.cs" />
+    <Compile Include="Assets\UI2\RecorderPanel\SetRecorderTimer.cs" />
+    <Compile Include="Assets\UI2\RecorderPanel\StartButton.cs" />
+    <Compile Include="Assets\UI2\Video\CloseVideoGrid.cs" />
+    <Compile Include="Assets\UI2\Video\OpenVideoDirectoryButton.cs" />
+    <Compile Include="Assets\UI2\Video\VideoContainer.cs" />
+    <Compile Include="Assets\UI2\Video\VideoFileInfo.cs" />
+    <Compile Include="Assets\UI2\Video\VideoGrid.cs" />
+    <Compile Include="Assets\UI2\Video\VideoItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Shaders\Bars.shader" />

@@ -24,7 +24,7 @@ public class NewProjectImagePicker : MonoBehaviour
 
     internal void SetBasedOnPath(string path)
     {
-        var dialog = GetComponentInParent<NewProjectDialog>();
+        var dialog = GetComponentInParent<CreateProjectDialog>();
 
         Texture2D tex = new Texture2D(0, 0);
         var bytes = File.ReadAllBytes(path);
