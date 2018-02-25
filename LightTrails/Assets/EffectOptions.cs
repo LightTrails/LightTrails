@@ -4,7 +4,7 @@ public class EffectOptions
     public static Effect[] Options =
     {
           Effect.Create("Plex",Effect.EffectKind.Particle, typeof(PlexMenuItem)),
-          Effect.Create("Fireworks",Effect.EffectKind.Particle, typeof(FireworksMenuItem)),
+          //Effect.Create("Fireworks",Effect.EffectKind.Particle, typeof(FireworksMenuItem)),
           Effect.Create("Wisps",Effect.EffectKind.Particle, typeof(WispMenuItem)),
           Effect.Create("Rain",Effect.EffectKind.Particle),
           Effect.Create("SmallFire", Effect.EffectKind.Particle, typeof(SmallFireMenuItem)),
@@ -13,7 +13,7 @@ public class EffectOptions
           Effect.Create("LargeFire", Effect.EffectKind.Particle),
           Effect.Create("Focus", Effect.EffectKind.Particle, typeof(FocusMenuItem)),
           Effect.Create("Dream",Effect.EffectKind.Particle),
-          Effect.Create("StarDust",Effect.EffectKind.Particle, typeof(StartDustMenuItem)),
+          //Effect.Create("StarDust",Effect.EffectKind.Particle, typeof(StartDustMenuItem)),
           Effect.Create("Smoke", Effect.EffectKind.Particle),
           Effect.Create("Hearts",Effect.EffectKind.Particle, typeof(HeartsMenuItem)),
           /*Effect.Create("Explosions", Effect.EffectKind.Particle,typeof(ExplosionMenuItem)),*/

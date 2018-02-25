@@ -17,7 +17,7 @@ public class CreateProjectDialogButton : MonoBehaviour
         dialog.Show(() =>
         {
             Project project = Project.CreateNew(dialog.GetProjectName(), null);
-            project.Save();
+            project.SaveToDisk();
             FindObjectOfType<ProjectList>().CreateProjectItem(project);
         });
     }

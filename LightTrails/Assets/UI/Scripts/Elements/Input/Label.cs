@@ -15,14 +15,14 @@ public class Label : AnimatedObject
         var rectTransform = transform as RectTransform;
         var anchoredPosition = rectTransform.anchoredPosition;
 
-        AddAnimation(new AnimatedTextTransparency()
+        AddAnimation(new AnimatedTextTransparency(gameObject)
         {
             NewTarget = 1.0f,
             OldTarget = 0.0f,
             Duration = Duration
         });
 
-        Animations.Add(new AnimatedMovement()
+        Animations.Add(new AnimatedMovement(gameObject)
         {
             NewTarget = anchoredPosition,
             OldTarget = anchoredPosition - new Vector2(FromLeft ? 30 : -30, 0),

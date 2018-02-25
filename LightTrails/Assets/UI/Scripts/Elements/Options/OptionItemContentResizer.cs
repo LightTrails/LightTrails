@@ -10,14 +10,12 @@ public class OptionItemContentResizer : AnimatedObject
         SetOverlayActive(true);
         SetOtherContentActive(false);
 
-        var rect = transform.transform as RectTransform;
-
-        AddAnimation(new AnimatedSize()
+        AddAnimation(new AnimatedSize(gameObject)
         {
             OldTarget = new Vector2(-200, -200),
             NewTarget = new Vector2(0, 0),
             Duration = 350,
-            CallBack = () =>
+            Callback = () =>
             {
                 SetOtherContentActive(true, hideChildren);
                 GetComponentInChildren<OptionItemOverlay>().FadeOut(() =>
@@ -33,14 +31,12 @@ public class OptionItemContentResizer : AnimatedObject
         SetOverlayActive(true);
         SetOtherContentActive(false);
 
-        var rect = transform.transform as RectTransform;
-
-        AddAnimation(new AnimatedSize()
+        AddAnimation(new AnimatedSize(gameObject)
         {
             OldTarget = new Vector2(0, 0),
             NewTarget = new Vector2(-200, -200),
             Duration = 350,
-            CallBack = () =>
+            Callback = () =>
             {
                 callBack();
             }

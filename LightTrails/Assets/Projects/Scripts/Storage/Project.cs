@@ -204,7 +204,7 @@ public class Project
         }
     }
 
-    public void Save()
+    public void SaveToDisk()
     {
         if (string.IsNullOrEmpty(Id))
         {

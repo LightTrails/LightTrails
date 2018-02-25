@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class AttributeMenuItem : MonoBehaviour
+public class AttributeMenuItem : AnimatedObject
 {
 
     public virtual void ReEvaluateEnabled()

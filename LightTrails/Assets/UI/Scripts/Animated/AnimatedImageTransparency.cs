@@ -2,41 +2,17 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AnimatedImageTransparency : Animation
+public class AnimatedImageTransparency : AnimatedFloat
 {
-    public float NewTarget;
-    public float OldTarget;
-
-    public Action Callback;
-
     public AnimatedImageTransparency(GameObject gameObject)
     {
-        OldTarget = gameObject.GetComponent<Image>().color.a;
-    }
+        UsedFunction = EaseFunction.Linear;
 
-    public AnimatedImageTransparency()
-    {
-
-    }
-
-    public override void RunProgress(float deltaTime, GameObject gameObject)
-    {
-        if (IsDone)
+        TargetUpdated = newValue =>
         {
-            return;
-        }
-
-        Progress += Time.deltaTime * 1000.0f / Duration;
-
-        var newColor = gameObject.GetComponent<Image>().color;
-        newColor.a = Mathf.Lerp(OldTarget, NewTarget, Progress);
-        gameObject.GetComponent<Image>().color = newColor;
-
-        IsDone = Progress >= 1;
-
-        if (IsDone && Callback != null)
-        {
-            Callback();
-        }
+            var newColor = gameObject.GetComponent<Image>().color;
+            newColor.a = newValue;
+            gameObject.GetComponent<Image>().color = newColor;
+        };
     }
 }

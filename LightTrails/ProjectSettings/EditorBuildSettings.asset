@@ -6,14 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Projects.unity
+    path: Assets/Projects/Scenes/Projects.unity
     guid: 40649866025b66f4d9b27f789d204570
   - enabled: 1
-    path: Assets/Scenes/Main.unity
+    path: Assets/Composer/Scenes/Editor.unity
     guid: a5c4c85e9c2025b4baf8fd3da2be71ca
   - enabled: 1
-    path: Assets/Scenes/Effects.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Particles/Scenes/ParticleOptions.unity
+    guid: 4876249c734755741a80f3b9284d9b9b
   - enabled: 1
-    path: Assets/Scenes/Videos.unity
-    guid: 00000000000000000000000000000000
+    path: Assets/Shaders/Scenes/ShadersOptions.unity
+    guid: ef5e9857d0d594b42b3991748829f5cf
+  - enabled: 1
+    path: Assets/Video/Scenes/Videos.unity
+    guid: 1831c0b74897abe4e84ace22527f6ef9

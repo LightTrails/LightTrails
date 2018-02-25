@@ -3,28 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimatedSize : Animation
+public class AnimatedSize : AnimatedVectorTwo
 {
-    public Vector2 NewTarget;
-    public Vector2 OldTarget;
-
-    public Action CallBack;
-
-    public override void RunProgress(float deltaTime, GameObject gameObject)
+    public AnimatedSize(GameObject gameObject)
     {
-        if (IsDone)
+        TargetUpdated = newValue =>
         {
-            return;
-        }
-
-        Progress += Time.deltaTime * 1000.0f / Duration;
-        var current = Ease.EaseInOutQuart(OldTarget, NewTarget, Progress);
-        (gameObject.transform as RectTransform).sizeDelta = current;
-
-        IsDone = Progress >= 1;
-        if (IsDone && CallBack != null)
-        {
-            CallBack();
-        }
+            (gameObject.transform as RectTransform).sizeDelta = newValue;
+        };
     }
 }

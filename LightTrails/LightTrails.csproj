@@ -12,14 +12,12 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.0f3</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -29,7 +27,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -39,7 +37,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -268,10 +266,10 @@
       <HintPath>Assets/Plugins/Windows10Port.dll</HintPath>
     </Reference>
     <Reference Include="Ookii.Dialogs">
-      <HintPath>Assets/UI2/Extensions/Ookii.Dialogs.dll</HintPath>
+      <HintPath>Assets/Utils/Extensions/Ookii.Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Forms">
-      <HintPath>Assets/UI2/Extensions/System.Windows.Forms.dll</HintPath>
+      <HintPath>Assets/Utils/Extensions/System.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/Rasmus Færing Larsen/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -296,102 +294,165 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\ActionAttribute.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\Attribute.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\Effect.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\MaskAttribute.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\OptionsAttribute.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\ShaderSliderAttribute.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\SizeAttribute.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\SliderAttribute.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Models\ToggleAttribute.cs" />
+    <Compile Include="Assets\Composer\Scripts\Attributes\Tab.cs" />
+    <Compile Include="Assets\Composer\Scripts\Buttons\AddImageButton.cs" />
+    <Compile Include="Assets\Composer\Scripts\Buttons\AddParticleButton.cs" />
+    <Compile Include="Assets\Composer\Scripts\Buttons\CloseButton.cs" />
+    <Compile Include="Assets\Composer\Scripts\Buttons\OpenVideoButton.cs" />
+    <Compile Include="Assets\Composer\Scripts\Buttons\SaveProject.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ActiveParticleList.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\CameraScaling.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\DebugInput.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\DraggableFrame\FlexableFrame.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\DraggableFrame\FlexibleDraggableObject.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\DraggableFrame\FlexibleExtensions.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\DraggableFrame\FlexibleResizeHandler.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\Effect.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ImageList.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ImageTranslation.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\LightPlane.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\MainCanvas.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ParticleEffect.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ParticleList.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\RemoveEffectButton.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ReordeableList\ReorderableList.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ReordeableList\ReorderableListContent.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ReordeableList\ReorderableListElement.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\ScreenShot.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\UnityMainThreadDispatcher.cs" />
+    <Compile Include="Assets\Composer\Scripts\General\Zoom.cs" />
+    <Compile Include="Assets\Composer\Scripts\Masks\ImportMask.cs" />
+    <Compile Include="Assets\Composer\Scripts\MenuItems\EffectMenuItem.cs" />
+    <Compile Include="Assets\Composer\Scripts\MenuItems\ImageMenuItem.cs" />
+    <Compile Include="Assets\Composer\Scripts\MenuItems\ItemsMenu.cs" />
+    <Compile Include="Assets\Composer\Scripts\MenuItems\ListAttributeExtensions.cs" />
+    <Compile Include="Assets\Composer\Scripts\MenuItems\MenuItem.cs" />
+    <Compile Include="Assets\Composer\Scripts\MenuItems\ParticleEffectMenuItem.cs" />
+    <Compile Include="Assets\Composer\Scripts\MenuItems\RecorderMenuItem.cs" />
+    <Compile Include="Assets\Composer\Scripts\MenuItems\ShaderEffectMenuItem.cs" />
+    <Compile Include="Assets\Composer\Scripts\RecorderPanel\RecordButton.cs" />
+    <Compile Include="Assets\Composer\Scripts\RecorderPanel\RecorderProgressBar.cs" />
+    <Compile Include="Assets\Composer\Scripts\RecorderPanel\SetRecorderTimer.cs" />
+    <Compile Include="Assets\Composer\Scripts\RecorderPanel\StartButton.cs" />
     <Compile Include="Assets\EffectOptions.cs" />
-    <Compile Include="Assets\Events\Events.cs" />
     <Compile Include="Assets\Helper.cs" />
-    <Compile Include="Assets\Items\ItemsMenu.cs" />
-    <Compile Include="Assets\Items\MenuItems\AddEffectMenuItem.cs" />
-    <Compile Include="Assets\Items\MenuItems\EffectMenuItem.cs" />
-    <Compile Include="Assets\Items\MenuItems\ImageMenuItem.cs" />
-    <Compile Include="Assets\Items\MenuItems\ListAttributeExtensions.cs" />
-    <Compile Include="Assets\Items\MenuItems\MenuItem.cs" />
-    <Compile Include="Assets\Items\MenuItems\ParticleEffectMenuItem.cs" />
-    <Compile Include="Assets\Items\MenuItems\RecorderMenuItem.cs" />
-    <Compile Include="Assets\Items\MenuItems\ShaderEffectMenuItem.cs" />
-    <Compile Include="Assets\Models\ActionAttribute.cs" />
-    <Compile Include="Assets\Models\Attribute.cs" />
-    <Compile Include="Assets\Models\Effect.cs" />
-    <Compile Include="Assets\Models\MaskAttribute.cs" />
-    <Compile Include="Assets\Models\OptionsAttribute.cs" />
-    <Compile Include="Assets\Models\ShaderSliderAttribute.cs" />
-    <Compile Include="Assets\Models\SizeAttribute.cs" />
-    <Compile Include="Assets\Models\SliderAttribute.cs" />
-    <Compile Include="Assets\Models\ToggleAttribute.cs" />
-    <Compile Include="Assets\ParticleSystems\Effects\ExplosionEffects.cs" />
-    <Compile Include="Assets\ParticleSystems\Effects\FireworksEffects.cs" />
-    <Compile Include="Assets\ParticleSystems\Effects\FocusEffect.cs" />
-    <Compile Include="Assets\ParticleSystems\Effects\HeartEffects.cs" />
-    <Compile Include="Assets\ParticleSystems\Effects\ParticlePlex.cs" />
-    <Compile Include="Assets\ParticleSystems\Effects\SmallFireEffects.cs" />
-    <Compile Include="Assets\ParticleSystems\Effects\StarDustEffect.cs" />
-    <Compile Include="Assets\ParticleSystems\Effects\WispsEffects.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\ExplosionMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\FireMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\FireworksMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\FocusMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\HeartsMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\LightningMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\PlexMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\SmallFireMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\SnowMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\StarDustMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\TrailsMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\WaveMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Items\WispMenuItem.cs" />
-    <Compile Include="Assets\ParticleSystems\Manipulations\ColorManipulation.cs" />
-    <Compile Include="Assets\ParticleSystems\Manipulations\EmitterResizeableParticleEffect.cs" />
-    <Compile Include="Assets\ParticleSystems\Manipulations\RenderManipulation.cs" />
-    <Compile Include="Assets\ParticleSystems\Manipulations\SizeManipulation.cs" />
-    <Compile Include="Assets\ParticleSystems\Manipulations\SpawnManipulation.cs" />
-    <Compile Include="Assets\ParticleSystems\Manipulations\SystemManipulation.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\AnimatedLight.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyAfterTime.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyOnParticlesDead.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyOnTrailsDestroyed.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\IgnoreTimeScale.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\ParticleSystems.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\ParticleSystemsSimulationSpeed.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\PerlinNoise.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\RendererSortingOrder.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\TrailRenderers.cs" />
+    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\TransformNoise.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\_Common\CreateLUT.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\AttractionParticleAffector.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\GPU (EXPERIMENTAL)\AttractionParticleAffectorGPU.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\GPU (EXPERIMENTAL)\ParticleAffectorGPU.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\GPU (EXPERIMENTAL)\TurbulenceParticleAffectorGPU.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\GPU (EXPERIMENTAL)\VortexParticleAffectorGPU.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\MT (EXPERIMENTAL)\TurbulenceParticleAffectorMT.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\Noise.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\ParticleAffector.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\TurbulenceParticleAffector.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\VortexParticleAffector.cs" />
+    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Lights\ParticleLights.cs" />
+    <Compile Include="Assets\Mirza Beig\Shaders\_Common\IEBase.cs" />
+    <Compile Include="Assets\Mirza Beig\Shaders\Image Effects\Resources\Sharpen\Sharpen.cs" />
+    <Compile Include="Assets\Particles\Scripts\Effects\ExplosionEffects.cs" />
+    <Compile Include="Assets\Particles\Scripts\Effects\FireworksEffects.cs" />
+    <Compile Include="Assets\Particles\Scripts\Effects\FocusEffect.cs" />
+    <Compile Include="Assets\Particles\Scripts\Effects\HeartEffects.cs" />
+    <Compile Include="Assets\Particles\Scripts\Effects\ParticlePlex.cs" />
+    <Compile Include="Assets\Particles\Scripts\Effects\SmallFireEffects.cs" />
+    <Compile Include="Assets\Particles\Scripts\Effects\StarDustEffect.cs" />
+    <Compile Include="Assets\Particles\Scripts\Effects\WispsEffects.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\ExplosionMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\FireMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\FireworksMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\FocusMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\HeartsMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\LightningMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\PlexMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\SmallFireMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\SnowMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\StarDustMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\TrailsMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\WaveMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Items\WispMenuItem.cs" />
+    <Compile Include="Assets\Particles\Scripts\Manipulations\ColorManipulation.cs" />
+    <Compile Include="Assets\Particles\Scripts\Manipulations\EmitterResizeableParticleEffect.cs" />
+    <Compile Include="Assets\Particles\Scripts\Manipulations\RenderManipulation.cs" />
+    <Compile Include="Assets\Particles\Scripts\Manipulations\SizeManipulation.cs" />
+    <Compile Include="Assets\Particles\Scripts\Manipulations\SpawnManipulation.cs" />
+    <Compile Include="Assets\Particles\Scripts\Manipulations\SystemManipulation.cs" />
+    <Compile Include="Assets\Particles\Scripts\Options\CloseParticleSceneButton.cs" />
+    <Compile Include="Assets\Particles\Scripts\Options\ParticleEffectContainer.cs" />
+    <Compile Include="Assets\Particles\Scripts\Options\ParticleImagePreview.cs" />
+    <Compile Include="Assets\Particles\Scripts\Options\ParticleOption.cs" />
     <Compile Include="Assets\Projects\Scripts\Actions\CreateProjectDialogButton.cs" />
     <Compile Include="Assets\Projects\Scripts\Actions\DeleteModeToggleButton.cs" />
     <Compile Include="Assets\Projects\Scripts\Helper\ClickHandlerCatcher.cs" />
+    <Compile Include="Assets\Projects\Scripts\Items\CanvasExtensions.cs" />
+    <Compile Include="Assets\Projects\Scripts\Items\CreateProjectDialog.cs" />
+    <Compile Include="Assets\Projects\Scripts\Items\NewProjectNameInput.cs" />
+    <Compile Include="Assets\Projects\Scripts\Items\ProjectBackgroundImage.cs" />
+    <Compile Include="Assets\Projects\Scripts\Items\ProjectGarbageIcon.cs" />
+    <Compile Include="Assets\Projects\Scripts\Items\ProjectList.cs" />
+    <Compile Include="Assets\Projects\Scripts\Items\ProjectOptionItem.cs" />
     <Compile Include="Assets\Projects\Scripts\NewProjectImagePicker.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectElements\CanvasExtensions.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectElements\CreateProjectDialog.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectElements\NewProjectNameInput.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectElements\ProjectBackgroundImage.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectElements\ProjectGarbageIcon.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectElements\ProjectList.cs" />
-    <Compile Include="Assets\Projects\Scripts\ProjectElements\ProjectOptionItem.cs" />
     <Compile Include="Assets\Projects\Scripts\Storage\AttributesValues.cs" />
     <Compile Include="Assets\Projects\Scripts\Storage\PersistenceConsts.cs" />
     <Compile Include="Assets\Projects\Scripts\Storage\Project.cs" />
     <Compile Include="Assets\Projects\Scripts\Storage\StoredItems.cs" />
-    <Compile Include="Assets\Recording\Record.cs" />
-    <Compile Include="Assets\Recording\RecorderAreaPicker.cs" />
-    <Compile Include="Assets\Recording\Utils.cs" />
-    <Compile Include="Assets\Services\FileLocationService.cs" />
-    <Compile Include="Assets\Shaders\Items\BarsMenuItem.cs" />
-    <Compile Include="Assets\Shaders\Items\BrightnessMenuItem.cs" />
-    <Compile Include="Assets\Shaders\Items\DistortionMenuItem.cs" />
-    <Compile Include="Assets\Shaders\Items\MistMenuItem.cs" />
-    <Compile Include="Assets\Shaders\Items\ShaderAttributes.cs" />
-    <Compile Include="Assets\Shaders\Items\TransitionMenuItem.cs" />
-    <Compile Include="Assets\Shaders\Items\VignettingMenuItem.cs" />
-    <Compile Include="Assets\Shaders\Items\WaterMenuItem.cs" />
-    <Compile Include="Assets\Shaders\Items\WaveMenuItem.cs" />
-    <Compile Include="Assets\Shaders\Mask\MaskImages.cs" />
-    <Compile Include="Assets\Shaders\Mask\MaskItem.cs" />
-    <Compile Include="Assets\Shaders\Mask\MaskList.cs" />
-    <Compile Include="Assets\Shaders\Mask\MaskPanel.cs" />
-    <Compile Include="Assets\Shaders\Misc\PaintScript.cs" />
-    <Compile Include="Assets\Shaders\Misc\ShaderEffect.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\BarsMenuItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\BrightnessMenuItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\DistortionMenuItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\MistMenuItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\ShaderAttributes.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\TransitionMenuItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\VignettingMenuItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\WaterMenuItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Items\WaveMenuItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Mask\MaskImages.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Mask\MaskItem.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Mask\MaskList.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Mask\MaskPanel.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Misc\PaintScript.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Misc\ShaderEffect.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Options\CloseShaderSceneButton.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Options\ShaderEffectContainer.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Options\ShaderOption.cs" />
+    <Compile Include="Assets\Shaders\Scripts\Options\ShaderPreview.cs" />
     <Compile Include="Assets\UI\Colors\ColorSchema.cs" />
     <Compile Include="Assets\UI\Scripts\Animated\AnimatedImageTransparency.cs" />
     <Compile Include="Assets\UI\Scripts\Animated\AnimatedMovement.cs" />
     <Compile Include="Assets\UI\Scripts\Animated\AnimatedObject.cs" />
     <Compile Include="Assets\UI\Scripts\Animated\AnimatedSize.cs" />
     <Compile Include="Assets\UI\Scripts\Animated\AnimatedTextTransparency.cs" />
-    <Compile Include="Assets\UI\Scripts\Animated\Animation.cs" />
-    <Compile Include="Assets\UI\Scripts\Animated\Ease.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\Values\AnimatedFloat.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\Values\AnimatedVectorTwo.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\Values\Animation.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\Values\AnimationWait.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\Values\AnimationWithTarget.cs" />
+    <Compile Include="Assets\UI\Scripts\Animated\Values\Ease.cs" />
     <Compile Include="Assets\UI\Scripts\Demo\DemoSelectorDropDown.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Attribute\AttributesMenu.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Attribute\DraggableParticleSystem.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Attribute\General\ShrinkButton.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Attribute\General\SizeExpandOnClick.cs" />
-    <Compile Include="Assets\UI\Scripts\Elements\Attribute\General\Tab.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Attribute\ImageProperties.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\ActionMenuItem.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Attribute\MenuItems\AttributeMenuItem.cs" />
@@ -405,61 +466,56 @@
     <Compile Include="Assets\UI\Scripts\Elements\Dialogs\SaveDialog.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Input\Label.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Input\TextInput.cs" />
-    <Compile Include="Assets\UI\Scripts\Elements\Notifications\Notifications.cs" />
+    <Compile Include="Assets\UI\Scripts\Elements\Notifications\Notification.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Options\OptionGroup.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Options\OptionItem.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Options\OptionItemContentResizer.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Options\OptionItemOverlay.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Options\ShaderEffectOption.cs" />
-    <Compile Include="Assets\UI\Scripts\Elements\Options\ShaderPreview.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Selectors\Selector.cs" />
     <Compile Include="Assets\UI\Scripts\Elements\Selectors\SelectorItem.cs" />
-    <Compile Include="Assets\UI2\Effects\EffectContentContainer.cs" />
-    <Compile Include="Assets\UI2\Effects\EffectOption.cs" />
-    <Compile Include="Assets\UI2\Effects\EffectOptionImageLoader.cs" />
-    <Compile Include="Assets\UI2\Effects\EffectOptionsOverlay.cs" />
-    <Compile Include="Assets\UI2\Effects\LoopIcon.cs" />
-    <Compile Include="Assets\UI2\FileBrowser\IStandaloneFileBrowser.cs" />
-    <Compile Include="Assets\UI2\FileBrowser\StandaloneFileBrowser.cs" />
-    <Compile Include="Assets\UI2\FileBrowser\StandaloneFileBrowserMetro.cs" />
-    <Compile Include="Assets\UI2\FileBrowser\StandaloneFileBrowserWindows.cs" />
-    <Compile Include="Assets\UI2\General\ActiveParticleList.cs" />
-    <Compile Include="Assets\UI2\General\AddImageButton.cs" />
-    <Compile Include="Assets\UI2\General\CameraScaling.cs" />
-    <Compile Include="Assets\UI2\General\CloseButton.cs" />
-    <Compile Include="Assets\UI2\General\DebugInput.cs" />
-    <Compile Include="Assets\UI2\General\DraggableFrame\FlexableFrame.cs" />
-    <Compile Include="Assets\UI2\General\DraggableFrame\FlexibleDraggableObject.cs" />
-    <Compile Include="Assets\UI2\General\DraggableFrame\FlexibleExtensions.cs" />
-    <Compile Include="Assets\UI2\General\DraggableFrame\FlexibleResizeHandler.cs" />
-    <Compile Include="Assets\UI2\General\Effect.cs" />
-    <Compile Include="Assets\UI2\General\ImageList.cs" />
-    <Compile Include="Assets\UI2\General\ImageTranslation.cs" />
-    <Compile Include="Assets\UI2\General\LightPlane.cs" />
-    <Compile Include="Assets\UI2\General\MainCanvas.cs" />
-    <Compile Include="Assets\UI2\General\ParticleEffect.cs" />
-    <Compile Include="Assets\UI2\General\ParticleList.cs" />
-    <Compile Include="Assets\UI2\General\RemoveEffectButton.cs" />
-    <Compile Include="Assets\UI2\General\ReordeableList\ReorderableList.cs" />
-    <Compile Include="Assets\UI2\General\ReordeableList\ReorderableListContent.cs" />
-    <Compile Include="Assets\UI2\General\ReordeableList\ReorderableListElement.cs" />
-    <Compile Include="Assets\UI2\General\SaveProject.cs" />
-    <Compile Include="Assets\UI2\General\ScreenShot.cs" />
-    <Compile Include="Assets\UI2\General\UnityMainThreadDispatcher.cs" />
-    <Compile Include="Assets\UI2\General\Zoom.cs" />
-    <Compile Include="Assets\UI2\Masks\ImportMask.cs" />
-    <Compile Include="Assets\UI2\RecorderPanel\RecordButton.cs" />
-    <Compile Include="Assets\UI2\RecorderPanel\RecorderProgressBar.cs" />
-    <Compile Include="Assets\UI2\RecorderPanel\SetRecorderTimer.cs" />
-    <Compile Include="Assets\UI2\RecorderPanel\StartButton.cs" />
-    <Compile Include="Assets\UI2\Video\CloseVideoGrid.cs" />
-    <Compile Include="Assets\UI2\Video\OpenVideoDirectoryButton.cs" />
-    <Compile Include="Assets\UI2\Video\VideoContainer.cs" />
-    <Compile Include="Assets\UI2\Video\VideoFileInfo.cs" />
-    <Compile Include="Assets\UI2\Video\VideoGrid.cs" />
-    <Compile Include="Assets\UI2\Video\VideoItem.cs" />
+    <Compile Include="Assets\Utils\Scripts\FileBrowser\IStandaloneFileBrowser.cs" />
+    <Compile Include="Assets\Utils\Scripts\FileBrowser\StandaloneFileBrowser.cs" />
+    <Compile Include="Assets\Utils\Scripts\FileBrowser\StandaloneFileBrowserMetro.cs" />
+    <Compile Include="Assets\Utils\Scripts\FileBrowser\StandaloneFileBrowserWindows.cs" />
+    <Compile Include="Assets\Utils\Scripts\FileLocationService.cs" />
+    <Compile Include="Assets\Video\Scripts\Record.cs" />
+    <Compile Include="Assets\Video\Scripts\RecorderAreaPicker.cs" />
+    <Compile Include="Assets\Video\Scripts\Utils.cs" />
+    <Compile Include="Assets\Video\Scripts\Video\CloseVideoButton.cs" />
+    <Compile Include="Assets\Video\Scripts\Video\DeleteModeVideoToggleButton.cs" />
+    <Compile Include="Assets\Video\Scripts\Video\OpenVideoDirectoryButton.cs" />
+    <Compile Include="Assets\Video\Scripts\Video\VideoContainer.cs" />
+    <Compile Include="Assets\Video\Scripts\Video\VideoFileInfo.cs" />
+    <Compile Include="Assets\Video\Scripts\Video\VideoGarbageIcon.cs" />
+    <Compile Include="Assets\Video\Scripts\Video\VideoGrid.cs" />
+    <Compile Include="Assets\Video\Scripts\Video\VideoOptionItem.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Mirza Beig\README - Action VFX.txt" />
+    <None Include="Assets\Mirza Beig\README - Advanced Particle Scaler.txt" />
+    <None Include="Assets\Mirza Beig\README - Shuriken to Spritesheet.txt" />
+    <None Include="Assets\Mirza Beig\README - Storm VFX.txt" />
+    <None Include="Assets\Mirza Beig\README - Ultimate VFX.txt" />
+    <None Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\GPU (EXPERIMENTAL)\Compute Shaders\Resources\AttractionParticleAffectorGPU.compute" />
+    <None Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\GPU (EXPERIMENTAL)\Compute Shaders\Resources\ParticleAffectorGPU-Common.cginc" />
+    <None Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\GPU (EXPERIMENTAL)\Compute Shaders\Resources\TurbulenceParticleAffectorGPU.compute" />
+    <None Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\GPU (EXPERIMENTAL)\Compute Shaders\Resources\VortexParticleAffectorGPU.compute" />
+    <None Include="Assets\Mirza Beig\Shaders\Image Effects\Resources\Sharpen\Sharpen.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Cutout\AlphaCutoff-Add.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Cutout\AlphaCutoff-Alpha.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Distortion\Distortion-Add (ORIGINAL).shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Distortion\Distortion-Add.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Distortion\Distortion-Alpha (ORIGINAL).shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Distortion\Distortion-Alpha.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Distortion\DistortionTextured-Add.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Distortion\DistortionTextured-Alpha.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Intersection Highlight\IntersectionHighlight-Add.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Intersection Highlight\IntersectionHighlight-Alpha.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Mask\Mask-Alpha.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\No Fog\NoFog-Add.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\No Fog\NoFog-Alpha.shader" />
+    <None Include="Assets\Mirza Beig\Shaders\Particles\Unmultiply\Unmultiply-AlphaFromLuminance.shader" />
     <None Include="Assets\Shaders\Shaders\Bars.shader" />
     <None Include="Assets\Shaders\Shaders\Basic.shader" />
     <None Include="Assets\Shaders\Shaders\Brightness.shader" />

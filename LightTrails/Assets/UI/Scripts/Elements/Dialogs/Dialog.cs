@@ -24,7 +24,7 @@ public class Dialog : AnimatedObject
         cancel.GetComponentInChildren<Text>().text = cancelText.ToUpper();
     }
 
-    void Update()
+    new void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
         {

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SizeMenuItem : AttributeMenuItem
 {
+    private const int MaxHeight = 180;
+    private const int MinHeight = 100;
+
     public SizeAttribute SizeAttribute;
 
     public GameObject ExpandedWidth;
@@ -18,6 +21,14 @@ public class SizeMenuItem : AttributeMenuItem
     public GameObject Closed;
 
     public bool Open = false;
+    private bool _oldValue;
+
+    private void Start()
+    {
+        Open = false;
+        _oldValue = Open;
+        GetComponent<LayoutElement>().minHeight = MinHeight;
+    }
 
     private void Update()
     {
@@ -26,11 +37,36 @@ public class SizeMenuItem : AttributeMenuItem
             Open = !Open;
         }
 
-        GetComponent<LayoutElement>().minHeight = Open ? 180 : 100;
-        Closed.SetActive(!Open);
-        Expand.SetActive(Open);
+        if (_oldValue != Open)
+        {
+            _oldValue = Open;
+            StartAnimation();
+        }
 
+        base.Update();
+    }
 
+    public void StartAnimation()
+    {
+        EndAllAnimations();
+        Closed.SetActive(false);
+        Expand.SetActive(false);
+
+        AddAnimation(new AnimatedFloat()
+        {
+            NewTarget = Open ? MaxHeight : MinHeight,
+            OldTarget = GetComponent<LayoutElement>().minHeight,
+            TargetUpdated = newFloatValue =>
+            {
+                GetComponent<LayoutElement>().minHeight = newFloatValue;
+            },
+            Callback = () =>
+            {
+                Closed.SetActive(!Open);
+                Expand.SetActive(Open);
+            },
+            Duration = 200
+        });
     }
 
     internal void Initialize(SizeAttribute size)
@@ -139,7 +175,7 @@ public class SizeMenuItem : AttributeMenuItem
     {
         FindObjectOfType<FlexableFrame>().SetOffSet(SizeAttribute.X, SizeAttribute.Y);
     }
-    
+
     internal void UpdateText()
     {
         int width = (int)(SizeAttribute.Width);

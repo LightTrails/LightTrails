@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class AnimatedObject : MonoBehaviour
@@ -11,10 +12,9 @@ public class AnimatedObject : MonoBehaviour
     {
         foreach (var item in Animations.ToArray())
         {
-            item.RunProgress(Time.deltaTime, gameObject);
+            item.RunProgress(Time.deltaTime);
             if (item.IsDone)
             {
-
                 Animations.Remove(item);
             }
         }
@@ -22,14 +22,31 @@ public class AnimatedObject : MonoBehaviour
 
     public void EndAllAnimations(bool setEndState = true)
     {
-        Animations.ForEach(x => x.SetEndState(gameObject));
+        Animations.ForEach(x => x.SetEndState());
         Animations.Clear();
     }
 
     public void AddAnimation(Animation animation)
     {
-        animation.SetStartState(gameObject);
+        animation.SetStartState();
         Animations.Add(animation);
+    }
+
+    public void PlayAnimationsInSequence(params Animation[] animations)
+    {
+        if (!animations.Any())
+        {
+            return;
+        }
+
+        for (int i = 0; i < animations.Length - 1; i++)
+        {
+            var current = animations[i];
+            var next = animations[i + 1];
+            current.Callback = () => { AddAnimation(next); };
+        }
+
+        AddAnimation(animations.First());
     }
 
     internal void MoveBetweenXValues(float from, float to, Action callBack = null)
@@ -40,11 +57,11 @@ public class AnimatedObject : MonoBehaviour
 
         rectTransform.anchoredPosition = anchoredPosition;
 
-        AddAnimation(new AnimatedMovement()
+        AddAnimation(new AnimatedMovement(gameObject)
         {
             NewTarget = new Vector2(to, anchoredPosition.y),
             OldTarget = rectTransform.anchoredPosition,
-            CallBack = callBack
+            Callback = callBack
         });
     }
 }

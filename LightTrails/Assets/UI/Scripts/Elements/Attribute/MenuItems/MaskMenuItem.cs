@@ -50,7 +50,7 @@ public class MaskMenuItem : AttributeMenuItem
         _maskPanel.Toggle();
     }
 
-    private void Update()
+    new void Update()
     {
         if (_maskPanel != null && _maskPanel.gameObject.activeInHierarchy)
         {
